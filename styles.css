@@ -1,0 +1,120 @@
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #a51c30;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#content {
+    flex-grow: 1;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li,
+.social-media ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-links ul li a,
+.social-media ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media ul li img {
+    width: 30px;
+    height: 30px;
+}
+.academics-section {
+    margin-top: 40px;
+}
+
+.programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.program img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.program h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.program p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
